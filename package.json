@@ -1,0 +1,28 @@
+{
+  "name": "react-native-pure-date-picker",
+  "version": "1.0.0",
+  "description": "react native date picker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/musicode/react-native-pure-date-picker.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "date",
+    "picker"
+  ],
+  "author": "musicode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/musicode/react-native-pure-date-picker/issues"
+  },
+  "homepage": "https://github.com/musicode/react-native-pure-date-picker#readme",
+  "dependencies": {
+    "react-native-picker": "^2.0.5"
+  }
+}
