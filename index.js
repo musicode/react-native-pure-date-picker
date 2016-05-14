@@ -122,7 +122,7 @@ export default class DatePicker extends Component {
     sofar: PropTypes.any,
     hasMonth: PropTypes.bool,
     hasDate: PropTypes.bool,
-    selectedValue: PropTypes.array.isRequired,
+    value: PropTypes.array.isRequired,
 
     height: PropTypes.number,
     showDuration: PropTypes.number,
@@ -143,7 +143,7 @@ export default class DatePicker extends Component {
   }
 
   static defaultProps = {
-    height: 320,
+    height: 260,
     showDuration: 300,
     hasMonth: true,
     showMask: true,
@@ -182,7 +182,7 @@ export default class DatePicker extends Component {
       sofar,
       hasMonth,
       hasDate,
-      selectedValue,
+      value,
 
       height,
       showDuration,
@@ -205,7 +205,7 @@ export default class DatePicker extends Component {
     return (
       <Picker
         ref="picker"
-        selectedValue={selectedValue}
+        selectedValue={value}
         pickerData={createYear({
           start: startYear,
           end: endYear,
@@ -230,4 +230,4 @@ export default class DatePicker extends Component {
       />
     )
   }
-};
+}
