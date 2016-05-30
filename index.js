@@ -2,12 +2,12 @@
 
 import React, {
   Component,
+  PropTypes,
 } from 'react'
 
 import {
   View,
   Text,
-  PropTypes,
 } from 'react-native'
 
 import Picker from 'react-native-picker'
