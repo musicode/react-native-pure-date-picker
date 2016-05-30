@@ -1,9 +1,12 @@
 'use strict'
 
 import React, {
+  Component,
+} from 'react'
+
+import {
   View,
   Text,
-  Component,
   PropTypes,
 } from 'react-native'
 
