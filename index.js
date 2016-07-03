@@ -157,7 +157,8 @@ export default class DatePicker extends Component {
     formatDate: date => typeof date === 'number' ? (date + '日') : date,
     headerStyle: {
       backgroundColor: '#F8F8F8',
-      paddingVertical: 20
+      paddingVertical: 10,
+      height: 40,
     }
   }
 
