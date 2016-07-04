@@ -1,6 +1,6 @@
 {
   "name": "react-native-pure-date-picker",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "react native date picker",
   "main": "index.js",
   "scripts": {
