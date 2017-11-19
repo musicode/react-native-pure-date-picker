@@ -2,14 +2,15 @@
 
 import React, {
   Component,
-  PropTypes,
 } from 'react'
 
 import {
   View,
   Text,
+  ViewPropTypes,
 } from 'react-native'
 
+import PropTypes from 'prop-types'
 import Picker from 'react-native-picker'
 
 function isLeapYear(year) {
@@ -133,7 +134,7 @@ export default class DatePicker extends Component {
     submitText: PropTypes.string,
     cancelText: PropTypes.string,
 
-    headerStyle: View.propTypes.style,
+    headerStyle: ViewPropTypes.style,
     headerButtonStyle: Text.propTypes.style,
 
     elevation: Picker.propTypes.pickerElevation,
