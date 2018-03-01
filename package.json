@@ -1,6 +1,6 @@
 {
   "name": "react-native-pure-date-picker",
-  "version": "2.0.3",
+  "version": "3.0.0",
   "description": "react native date picker",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,6 @@
   },
   "homepage": "https://github.com/musicode/react-native-pure-date-picker#readme",
   "dependencies": {
-    "prop-types": "^15.5.10",
-    "react-native-picker": "^3.0.5"
+    "prop-types": "^15.6.0"
   }
 }

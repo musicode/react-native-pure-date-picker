@@ -11,7 +11,7 @@ import {
 } from 'react-native'
 
 import PropTypes from 'prop-types'
-import Picker from 'react-native-picker'
+import Picker from './Picker'
 
 function isLeapYear(year) {
   // 四年一闰，百年不闰，四百年再闰
