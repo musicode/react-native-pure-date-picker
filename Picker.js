@@ -54,9 +54,10 @@ export default class PickerAny extends Component {
 		onValueChange: ()=>{}
 	};
 
-	componentWillMount(){
+  constructor(props, context) {
+    super(props, context)
     this.state = this._getStateFromProps(this.props)
-	}
+  }
 
 	componentWillReceiveProps(newProps){
 		this.setState(
