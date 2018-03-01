@@ -40,6 +40,8 @@ export default class PickerAndroid extends Component{
 		selectedValue: PropTypes.any
 	};
 
+  state = { }
+
   componentWillMount(){
     this.setState(
       this._getStateFromProps(this.props)
