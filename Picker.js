@@ -56,7 +56,7 @@ export default class PickerAny extends Component {
 
   constructor(props, context) {
     super(props, context)
-    this.state = this._getStateFromProps(this.props)
+    this.state = this._getStateFromProps(props)
   }
 
 	componentWillReceiveProps(newProps){

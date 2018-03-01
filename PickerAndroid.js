@@ -42,7 +42,7 @@ export default class PickerAndroid extends Component{
 
   constructor(props, context) {
     super(props, context)
-    this.state = this._getStateFromProps(this.props)
+    this.state = this._stateFromProps(props)
   }
 
 	componentWillReceiveProps(nextProps){
