@@ -1,6 +1,6 @@
 'use strict';
 
-import React, {Component, PropTypes} from 'react';
+import React, {Component} from 'react';
 import {
 	StyleSheet,
 	View,
@@ -11,6 +11,8 @@ import {
 	PanResponder,
   ViewPropTypes
 } from 'react-native';
+
+import PropTypes from 'prop-types'
 
 class PickerAndroidItem extends Component{
 

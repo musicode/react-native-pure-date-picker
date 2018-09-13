@@ -1,6 +1,6 @@
 'use strict';
 
-import React, {Component, PropTypes} from 'react';
+import React, {Component} from 'react';
 import {
 	StyleSheet,
 	View,
@@ -12,6 +12,7 @@ import {
   ViewPropTypes
 } from 'react-native';
 
+import PropTypes from 'prop-types'
 import PickerAndroid from './PickerAndroid';
 
 let Picker = Platform.OS === 'ios' ? PickerIOS : PickerAndroid;
